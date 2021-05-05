@@ -4,6 +4,8 @@ Unless otherwise stated in comments, all program design and implementation was d
 This project received a mark of 100% for passing all the test cases. 
 This project passed 100% of all the memory leak test cases using Valgrind.
 
+Students had to create a Makefile that was used for executing the program and all testing was done in an Ubuntu environment using SSH
+
 Students were required to implement a minimum spanning tree (MST) of a weighted undirected graph using Kruskal's algorithm.
 The graph was represented as an adjacency matrix. 
 A disjoint set class was also implemented to ensure the procedure does not loop in the MST.
