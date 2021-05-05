@@ -4,6 +4,8 @@ Unless otherwise stated in comments, all program design and implementation was d
 This project passed 17/18 test cases 
 This project passed 100% of all the memory leak test cases using Valgrind.
 
+Students had to create a Makefile that was used for executing the program and all testing was done in an Ubuntu environment using SSH
+
 Students were required to implement a Quadtree data structure using a recursive approach. The following functions were required:
 * insert a node with a set of attributes
 * search for a node
