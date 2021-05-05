@@ -1,6 +1,9 @@
 This is my implementation of project3 for ECE 250 taken in Fall 2020 at the University of Waterloo. 
 Unless otherwise stated in comments, all program design and implementation was done by me.
 
+This project received a mark of 100% for passing all the test cases. 
+This project passed 100% of all the memory leak test cases using Valgrind.
+
 Students were required to implement a minimum spanning tree (MST) of a weighted undirected graph using Kruskal's algorithm.
 The graph was represented as an adjacency matrix. 
 A disjoint set class was also implemented to ensure the procedure does not loop in the MST.
