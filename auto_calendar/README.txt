@@ -4,12 +4,12 @@ Purpose:
 * Quickly add important dates for user's school courses by typing in required information into command line.
 * Reduces time it takes to input a large amount of events by removing the need to navigate the online GUI of Google Calendar.
 
-Front-End Capabilities:
+User Capabilities:
 * View list of calendars associated with your Google account
 * Create events for any of your calendars or create a new calendar
 * View events on any calendar with the option to filter by course and/or upcoming dates
 
-Backend Work:
+Behind the Scenes Work:
 * 'Login' to Google Calendar using Calendar API
 * Handle cases when necessary files are missing (ex. credentials)
 * Save configuration to .json file for persistence
