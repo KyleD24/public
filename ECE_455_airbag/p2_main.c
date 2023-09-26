@@ -268,7 +268,7 @@ int failure_active ( void )
 //This is C. The expected function heading is int main(void)
 int main( void ) 
 {
-	//Always callthis function at the start. It sets up various peripherals, the clock etc.
+	//Always call this function at the start. It sets up various peripherals, the clock etc.
 	SystemInit();
 	init_led_adc();
 	init_timer();
@@ -286,8 +286,4 @@ int main( void )
 		fsm_add_trans(NORMAL, FAILURE, TRIGGER_FAILURE);
     
     fsm_run_fsm();
-
-	//Your code should always terminate in an endless loop if it is done. If you don't
-	//the processor will enter a hardfault and will be weird
-	while(1);
 }
